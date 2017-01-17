@@ -6,20 +6,31 @@
 </head>
 <body>
     <script type="text/javascript">
-//        function max(a,b) {
-//            return a>b?a:b;
-//        }
+        function max(a,b) {
+            return a>b?a:b;
+        }
 //
 //        console.log(max(2,3));
 //
 //        var func = max;
 //        console.log(func(5,7));
 
-        var max1=function () {
-            console.log(arguments);
+//        var max1=function () {
+//            console.log(arguments);
+//        }
+//
+//        max1(1,2,"hello world");
+
+        function max1() {
+            var maxValue = arguments[0];
+            for(var i=1; i<arguments.length; i++){
+                maxValue = max(maxValue, arguments[i]);
+            }
+
+            return maxValue;
         }
 
-        max1(1,2,"hello world");
+        console.log(max1(1,4,7,8,2,6,0));
 
 
     </script>
