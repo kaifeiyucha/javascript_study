@@ -5,5 +5,6 @@
 2.利用Chrome进行调试.  
 3.function的简单实例，arguments输出参数.  
 4.面向对象.
+5.音频<audio>
 
 
