@@ -6,6 +6,4 @@
 3.function的简单实例，arguments输出参数.  
 4.面向对象.  
 5.音频<audio>.  
-
-
-
+6.视频<video>.  
